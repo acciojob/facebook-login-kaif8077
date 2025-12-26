@@ -1,1 +1,66 @@
 /*  your css code here. If applicable */
+body {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 50px;
+  font-family: Arial, sans-serif;
+}
+
+/* LEFT SECTION */
+.left {
+  width: 450px;
+  margin-top: 70px;
+  display: inline-block;
+}
+
+.left p {
+  font-size: 24px;
+}
+
+/* RIGHT SECTION */
+form {
+  display: flex;
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ccc;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* LOGIN BUTTON */
+form button {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: white;
+  width: 100%;
+}
+
+/* LINK */
+a {
+  text-decoration: none;
+  color: #1877f2;
+  text-align: center;
+}
+
+/* SIGNUP BUTTON */
+.signup {
+  background-color: #42b72a;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
